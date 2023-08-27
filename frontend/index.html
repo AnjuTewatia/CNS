@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Application</title>
+    <script defer src="https://ccns.onrender.com/socket.io/socket.io.min.js"></script>
+    <script defer src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <!-- **********navbar****** -->
+    <header>
+        <h1>Chat App </h1>
+        <nav id="logo">
+            <img src="chat.png" alt="logo">
+        </nav>
+
+    </header>
+
+    <!-- ******* -->
+
+    <!-- container where you can chat to anyone -->
+    <div id="container">
+        <div id="date_section" class="message center">
+            chat with your friends
+        </div>
+    </div>
+
+    <!-- form form where user can chat  -->
+    <div id="send-form">
+        <form action="" id="send_message">
+            <input type="text" name="nessage_input" id="message_input" placeholder="type your message">
+            <input type="submit" id="message_submit_button" value="send">
+        </form>
+
+    </div>
+
+
+</body>
+
+</html>
